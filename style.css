@@ -1,0 +1,216 @@
+body
+{
+  height:100%;
+  font-family:"Lato", sans-serif;
+}
+
+
+.video
+{
+    margin-top:-21px;
+    margin-bottom:-21px;
+    margin-left:-8px;
+    margin-right:-8px;
+    padding-top:31px;
+    padding-bottom:31px;
+    text-align: center;
+    background-image:url(img2.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:#af4300;
+    height:550px;
+}
+
+
+.partown
+{
+    background:#000;
+    text-align:center;
+    margin-left:-8px;
+    margin-right:-8px;
+    color:rgba(207, 42, 42, 0.85);
+    padding:5px;
+}
+
+
+.hossam
+{
+    text-transform:uppercase;
+    text-align:center;
+    height:700px;
+    background-image:url(ima4.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin:-21px -8px;
+    padding:100px 0 0 0;
+    
+}
+
+
+ul
+{
+   
+   list-style-type:none; 
+}
+
+
+
+.hossam p
+{
+    text-align:center;
+    color:#000;
+    background-color:rgba(255, 0, 0, 0);
+    width:530px;
+    margin:auto;
+    padding:20px;
+    border-style:hidden;
+    border-color:#000;
+    border-top-style:solid;
+    border-left-style: solid;
+    border-width:1.5px;
+    font-size:30px;
+    box-shadow:10px 10px 10px ;
+    border-radius:30px;
+  
+        
+    
+}
+
+.hossam span 
+{
+    
+    font-size: 30px;
+}
+
+
+li
+{
+    letter-spacing:10px;
+    margin-top:10px;
+    font-size:20px;
+    font-weight:900;
+}
+
+
+button
+{
+
+    color:#00156f;
+    font-size:25px;
+    font-weight: 600;
+    border-bottom-width:5px;
+    border-radius:10px;
+    margin:10px;
+    padding:6px;
+    width:200px;
+    height:50px;
+    background-color: rgba(115, 211, 253, 0.11)
+    
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color:#000;
+}
+
+.sign-in 
+{
+    background-color:rgb(0, 0, 0);
+    color:rgb(0, 29, 253);
+    padding:5px;
+    margin-left:-8px;
+    margin-right:-8px;
+    text-align:center;
+
+}
+
+.register
+{
+    
+    background-image:url(img5.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom:-8px;
+    height:700px;
+    
+}
+
+.mokawnat
+{
+    text-align:center;
+    padding-top:150px;
+    width:600px;
+    
+}
+.password ,.username
+{
+    font-size:40px
+}
+
+
+.username input , .password input
+{
+    height:50px;
+    width:200px;
+    font-size:17px;
+    border-radius:15px;
+    margin:50px;
+    text-align:left;
+    padding-left:10px
+    
+}
+.username input:hover , .password input:hover
+{
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.57);
+}
+
+input[type="submit"]
+{
+    margin:50px 50px 50px 0px;
+    color:#ffffff;
+    height:60px;
+    width:450px;
+    border-radius:10px;
+    background-color:rgba(99, 0, 172, 0.62);
+    font-size:27px;
+    font-weight:700;
+    
+    
+}
+
+input[type='submit']:hover
+{
+    color:#22002a;
+    background-color:rgba(62, 0, 101, 0.42);
+    cursor:pointer;
+        
+}
+
+
+input[type='checkbox']:hover
+{
+    cursor: pointer;
+}
+
+.remember-me
+{
+    text-align:left;
+    padding-left:48px;
+    font-size:30px
+}
+
+
+
+
+
+
+
