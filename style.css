@@ -1,216 +1,264 @@
-body
+
+.slider
 {
-  height:100%;
-  font-family:"Lato", sans-serif;
+    background-image:url(IMG_20200809_230222.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:600px;
+    
 }
-
-
-.video
+.web
 {
-    margin-top:-21px;
-    margin-bottom:-21px;
-    margin-left:-8px;
-    margin-right:-8px;
-    padding-top:31px;
-    padding-bottom:31px;
+    padding-top: 28%;
     text-align: center;
-    background-image:url(img2.jpg);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    color:#af4300;
-    height:550px;
 }
-
-
-.partown
+.web span
 {
-    background:#000;
-    text-align:center;
-    margin-left:-8px;
-    margin-right:-8px;
-    color:rgba(207, 42, 42, 0.85);
-    padding:5px;
-}
-
-
-.hossam
-{
-    text-transform:uppercase;
-    text-align:center;
-    height:700px;
-    background-image:url(ima4.jpg);
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    margin:-21px -8px;
-    padding:100px 0 0 0;
-    
-}
-
-
-ul
-{
-   
-   list-style-type:none; 
-}
-
-
-
-.hossam p
-{
-    text-align:center;
-    color:#000;
-    background-color:rgba(255, 0, 0, 0);
-    width:530px;
-    margin:auto;
-    padding:20px;
-    border-style:hidden;
-    border-color:#000;
-    border-top-style:solid;
-    border-left-style: solid;
-    border-width:1.5px;
-    font-size:30px;
-    box-shadow:10px 10px 10px ;
-    border-radius:30px;
-  
-        
-    
-}
-
-.hossam span 
-{
-    
+    border: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
     font-size: 30px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase
 }
 
-
-li
+.buton
 {
-    letter-spacing:10px;
-    margin-top:10px;
-    font-size:20px;
-    font-weight:900;
+/*    text-align: center;*/
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 
-
-button
+.buton button
 {
-
-    color:#00156f;
-    font-size:25px;
-    font-weight: 600;
-    border-bottom-width:5px;
-    border-radius:10px;
-    margin:10px;
-    padding:6px;
-    width:200px;
-    height:50px;
-    background-color: rgba(115, 211, 253, 0.11)
-    
+    background-color: #0000;
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
-button:hover
-{
-    cursor: pointer;
-    background-color:#000;
-}
+.buton button:hover {cursor: pointer;}
 
-.sign-in 
+.container
 {
-    background-color:rgb(0, 0, 0);
-    color:rgb(0, 29, 253);
-    padding:5px;
-    margin-left:-8px;
-    margin-right:-8px;
-    text-align:center;
-
+    width:970px;
+    margin:auto;
 }
+.fixedd
+{position:relative}
 
-.register
+.navbar
 {
-    
-    background-image:url(img5.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-attachment:fixed;
-    margin-left:-8px;
-    margin-right:-8px;
-    margin-bottom:-8px;
-    height:700px;
-    
-}
-
-.mokawnat
-{
-    text-align:center;
-    padding-top:150px;
-    width:600px;
-    
-}
-.password ,.username
-{
-    font-size:40px
-}
-
-
-.username input , .password input
-{
-    height:50px;
-    width:200px;
-    font-size:17px;
-    border-radius:15px;
-    margin:50px;
-    text-align:left;
-    padding-left:10px
-    
-}
-.username input:hover , .password input:hover
-{
-    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.57);
-}
-
-input[type="submit"]
-{
-    margin:50px 50px 50px 0px;
+    background-color:#000000 ;
     color:#ffffff;
-    height:60px;
-    width:450px;
-    border-radius:10px;
-    background-color:rgba(99, 0, 172, 0.62);
-    font-size:27px;
-    font-weight:700;
+    overflow:hidden;
     
     
 }
 
-input[type='submit']:hover
+
+.navbar span {color: #c30000}
+.navbar ul
 {
-    color:#22002a;
-    background-color:rgba(62, 0, 101, 0.42);
-    cursor:pointer;
+    list-style:none;
+    float:right;
+    overflow:hidden;
+}
+.navbar li
+{
+    float:left;
+    margin:0 20px;
+    font-size:20px;
+    text-transform:capitalize;
+    margin-top:8px
+}
+.navbar a:hover
+{
+    color:#c30000;
+    cursor: pointer;
+        
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white
+}
+.navbar h2 {float:left;}
+.features {overflow: hidden; padding: 50px}
+
+.features h2 {text-transform: uppercase; }
+
+.features div div 
+{
+    float: left;
+    width: 33.3333333333333%;
+    
+}
+.features p
+{
+    line-height: 1.7
+}
+
+.bigaboutme
+{
+    
+    color: white;
+    overflow: hidden;
+    background-color:#000;
+    
+}
+.bigaboutme h2 , .bigaboutme h4
+{
+    text-align: center;
+    color: #c30000;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.bigaboutme h2 {text-align: left;}
+
+.bigaboutme img
+{
+    width: 400px;
+    height: 600px;
+    float: left;
         
 }
 
+.aboutme 
+{
+    padding-top: 20px;
+    margin-right: 60px;
+    width: 60%;
+    float: right;
+    
+    
+}
 
-input[type='checkbox']:hover
+.aba4takanat div
+
+{
+    margin-left:60px;
+    width: 30%;
+    float: right;
+    flex-wrap: wrap
+}
+.ssss
+{
+    height: 360px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.myskills
+{
+    width: 50%;
+    float: left;
+    
+}
+.myskills h3 
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #c30000;
+}
+.myskills p {font-size: 20px}
+
+.myskills button
+{
+    font-size:25px;
+    border: 1px solid;
+    margin-left: 100px;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: #c30000;
+}
+
+.myskills button:hover
 {
     cursor: pointer;
+    background-color: black;
 }
-
-.remember-me
+.boxs {float: right;height: 360px;}
+.box
 {
-    text-align:left;
-    padding-left:48px;
-    font-size:30px
+    text-align: right;
+    width: 400px;
+    background-color: gray;
+    height: 30px;
+    margin-left: 50px
+}
+.box div {padding-right: 5px}
+
+.pyth
+{
+    padding-top: 5px;
+    background-color: red;
+    height: 82%;
+    width:95%;
+}
+.js
+{
+    padding-top: 5px;
+    background-color: red;
+    height: 82%;
+    width:60%;
+}
+.hc
+{
+    padding-top: 5px;
+    background-color: red;
+    height: 82%;
+    width:80%;
+}
+.dj
+{
+    padding-top: 5px;
+    background-color: red;
+    height: 82%;
+    width:50%;
+}
+.resume
+{
+    background-color: black;
+    color: red;
+    height: 300px;
 }
 
-
-
-
-
-
-
+.rtitle
+{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rcontent
+{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    
+}
+.dresume
+{
+    margin-top: 20px;
+    margin-left: 44%;
+    height: 40px;
+    width: 12%;
+    border-color: white;
+    border-style: solid;
+    border-bottom-width: 1px;
+    color: red;
+    background-color: black;
+    
+}
