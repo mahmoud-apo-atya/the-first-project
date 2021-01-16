@@ -1,264 +1,293 @@
-
+body
+{
+    height:2600px
+    
+}
 .slider
 {
-    background-image:url(IMG_20200809_230222.jpg);
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    height:600px;
-    
+    background-image: url(imgcut.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
 }
 .web
 {
-    padding-top: 28%;
+    
     text-align: center;
-}
-.web span
-{
-    border: 1px solid white;
-    border-left: 0px;
-    border-right: 0px;
-    font-size: 30px;
-    padding: 10px;
-    color: white;
-    text-transform: uppercase
+    padding-top: 35%;
 }
 
-.buton
+.web span
 {
-/*    text-align: center;*/
-    padding-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    color: white;
+    padding-bottom: 10px;
+    font-size: 50px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
+}
+
+.buton 
+{
+    width: 155px;
+    margin: auto;
+    margin-top:40px;
+    
 }
 
 .buton button
 {
-    background-color: #0000;
-    height: 40px;
-    width: 150px;
-    border: 2px solid white;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.buton button:hover {cursor: pointer;}
-
-.container
-{
-    width:970px;
-    margin:auto;
-}
-.fixedd
-{position:relative}
-
-.navbar
-{
-    background-color:#000000 ;
-    color:#ffffff;
-    overflow:hidden;
-    
-    
-}
-
-
-.navbar span {color: #c30000}
-.navbar ul
-{
-    list-style:none;
-    float:right;
-    overflow:hidden;
-}
-.navbar li
-{
-    float:left;
-    margin:0 20px;
+    background-color:rgba(0, 0, 0, 0);
+    width:155px;
+    height:40px;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius:10px;
     font-size:20px;
     text-transform:capitalize;
-    margin-top:8px
+    cursor:pointer
 }
-.navbar a:hover
+.buton button:hover
 {
-    color:#c30000;
-    cursor: pointer;
+    cursor:pointer;
+}
+
+
+
+.container{
+    width:970px;
+    margin: auto;
+/*    display:flex; */
         
 }
-.navbar a
+.navbar
 {
-    text-decoration: none;
-    color: white
-}
-.navbar h2 {float:left;}
-.features {overflow: hidden; padding: 50px}
-
-.features h2 {text-transform: uppercase; }
-
-.features div div 
-{
-    float: left;
-    width: 33.3333333333333%;
-    
-}
-.features p
-{
-    line-height: 1.7
-}
-
-.bigaboutme
-{
-    
-    color: white;
-    overflow: hidden;
     background-color:#000;
+    overflow: hidden;
+ 
+}
+.navbar h2
+{
+    color: white;
+    float:left;
+    margin-bottom: -3px;
+    margin-top: 20px;
+}
+
+.navbar h2 span
+{
+    text-transform: uppercase;
+    color: red;
     
 }
-.bigaboutme h2 , .bigaboutme h4
-{
-    text-align: center;
-    color: #c30000;
-    text-transform: uppercase;
-    font-size: 20px;
 
+.navbar ul
+{
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    text-transform: capitalize;
+    
+    
+    
 }
 
-.bigaboutme h2 {text-align: left;}
-
-.bigaboutme img
+.navbar li
 {
-    width: 400px;
-    height: 600px;
     float: left;
+    margin-left: 30px;
+    color:#ddd;
+}
+
+.navbar li:hover
+{
+    color: red
+}
+.things div
+{
+    width:27%;
+    float:left;
+    height:180px;
+    margin:30px;   
+}
+.things div h2
+{
+    text-transform:uppercase
+}
+.nimage
+{
+    margin-top: 250px;
+    overflow:hidden;
+    background-clip:padding-box;
+    background-color:#a7a7a7; /*  مش شغاااااال */ 
+    height:500px;
+    
         
 }
-
-.aboutme 
+.nimage img 
 {
-    padding-top: 20px;
-    margin-right: 60px;
-    width: 60%;
-    float: right;
+    float:left;
+}
+
+
+.about-me
+{
+    width:600px;
+    overflow:hidden;
+    float:right;
     
-    
 }
 
-.aba4takanat div
-
+.for div
 {
-    margin-left:60px;
-    width: 30%;
-    float: right;
-    flex-wrap: wrap
+    float:right;
+    width:300px;
+    flex-wrap:wrap;
 }
-.ssss
-{
-    height: 360px;
-    background-color: white;
-    padding-top: 20px;
-}
+.th {margin-top:30px; height:400px;}
 
 .myskills
 {
-    width: 50%;
-    float: left;
+    width:50%;
+    float:left;
+
     
 }
-.myskills h3 
+.myskills h3
 {
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #c30000;
+    text-transform:uppercase;
 }
-.myskills p {font-size: 20px}
-
 .myskills button
 {
-    font-size:25px;
-    border: 1px solid;
-    margin-left: 100px;
-    width: 160px;
-    height: 50px;
-    background-color: white;
-    color: #c30000;
+    padding:8px 30px;
+    border: 1px solid #000;
+    background-color:#fff;
 }
 
-.myskills button:hover
-{
-    cursor: pointer;
-    background-color: black;
-}
-.boxs {float: right;height: 360px;}
+.myskills button:hover{cursor:pointer}
+
 .box
 {
-    text-align: right;
-    width: 400px;
-    background-color: gray;
-    height: 30px;
-    margin-left: 50px
+    border-radius:5px;
+    height:20px;
+    width:250px;
+    background-color:#a7a7a7;
+    text-align:right;
+  
 }
-.box div {padding-right: 5px}
-
-.pyth
+.boxs
 {
-    padding-top: 5px;
-    background-color: red;
-    height: 82%;
-    width:95%;
+    float:right;
+}
+.pho
+{
+    color:#fff;
+    width: 85%;
+    border-radius: 5px 3px 3px 5px;
+    padding-right: 5px;
+    background-color:#0a00ff;
+    height:100%
+    
 }
 .js
 {
-    padding-top: 5px;
-    background-color: red;
-    height: 82%;
-    width:60%;
+    color:#fff;
+    width: 60%;
+    border-radius: 5px 3px 3px 5px;
+    padding-right: 5px;
+    background-color:#0a00ff;
+    height:100%
+    
 }
 .hc
 {
-    padding-top: 5px;
-    background-color: red;
-    height: 82%;
-    width:80%;
+    color:#fff;
+    width: 90%;
+    border-radius: 5px 3px 3px 5px;
+    padding-right: 5px;
+    background-color:#0a00ff;
+    height:100%
+    
 }
-.dj
+.php
 {
-    padding-top: 5px;
-    background-color: red;
-    height: 82%;
-    width:50%;
+    color:#fff;
+    width: 70%;
+    border-radius: 5px 3px 3px 5px;
+    padding-right: 5px;
+    background-color:#0a00ff;
+    height:100%
+    
 }
 .resume
 {
-    background-color: black;
-    color: red;
-    height: 300px;
+    text-align:center;
+    background-color:#a7a7a7;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+    padding-top:30px
+}
+.resume h2{text-transform:uppercase;}
+.resume button
+{
+    text-transform:capitalize;
+    width:200px;
+    height:40px;
+    background-color:rgba(0, 0, 0, 0);
+    border:2px solid #000;
+    margin-top:40px
+}
+.myeducation
+{
+    height:200px;
+    width:45%;
+    overflow:hidden;
+    margin-top:30px;
+    float:left;
+    
+}
+.myeducation h2
+{
+    text-transform:uppercase;
+}
+.jj
+{
+    float:right;
+    overflow:hidden;
+    margin:30px;
+    width:400px;
+    border-bottom:2px solid #a7a7a7;
+    padding-bottom:20px;
+/*    display:block;*/
+}
+.jj h2{text-transform:uppercase}
+
+.gpa
+{
+    background-color:#0a00ff;
+    color:#ddd;
+    width:70px;
+    text-align:center;
+    padding:7px;
+    font-weight:600;
+    border-radius:7px;
+    
+}
+.pp
+{
+    float:right;
+    overflow:hidden;
+    display:block;
 }
 
-.rtitle
-{
-    padding-top: 50px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    text-align: center;
-}
-.rcontent
-{
-    text-align: center;
-    color: white;
-    padding-top: 30px;
-    
-}
-.dresume
-{
-    margin-top: 20px;
-    margin-left: 44%;
-    height: 40px;
-    width: 12%;
-    border-color: white;
-    border-style: solid;
-    border-bottom-width: 1px;
-    color: red;
-    background-color: black;
-    
-}
+
+
+
+
